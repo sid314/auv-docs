@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'AUV Blogs'
+theme = 'HugoTeX'
+enableInlineShortcodes = true
+
+[Params]
+description = "AUV documentation and notes"
+
+[Params.Author]
+abstract = "Technical Blogs by AUV members"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+inline = [['$', '$']]
+block = [['$$', '$$']]
+[markup.highlight]
+style = "paraiso-dark"
