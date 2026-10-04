@@ -8,7 +8,7 @@ tags = ['control']
 
 # Control Basics II: PID Tuning
 
-The [previous post](/post/example1/) introduced feedback and the PID law on a first-order plant. This follow-up moves to a second-order plant, which can overshoot and oscillate, and shows what each gain does and why integrators need anti-windup.
+The [previous post]({{< relref "example1.md" >}}) introduced feedback and the PID law on a first-order plant. This follow-up moves to a second-order plant, which can overshoot and oscillate, and shows what each gain does and why integrators need anti-windup.
 
 <!--more-->
 
